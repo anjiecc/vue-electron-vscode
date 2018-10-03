@@ -1,0 +1,21 @@
+export default {
+  search: 'Search',
+  openfile: 'OpenFile',
+  searchfile: 'SearchFile',
+  debug: 'Debug',
+  plugin: 'Plugin',
+  setting: 'Setting',
+  openEditor: 'OpenEditor',
+  resourceManager: 'ResourceManager',
+  projectName: 'ProjectName',
+  outline: 'Outline',
+  console: 'Console',
+  refresh: 'Refresh',
+  collapseAll: 'Collapse all',
+  clear: 'Clear',
+  enable: 'Enable',
+  recommend: 'Recommend',
+  disable: 'Disable',
+  expansion: 'Expansion',
+  sourceControl: 'Source Control: GIT'
+}

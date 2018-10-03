@@ -1,0 +1,21 @@
+export default {
+  search: '搜索',
+  openfile: '打开文件',
+  searchfile: '搜索文件',
+  debug: '调式',
+  plugin: '插件',
+  setting: '设置',
+  openEditor: '打开的编辑器',
+  resourceManager: '资源管理器',
+  projectName: '工程名',
+  outline: '大纲',
+  console: '控制台',
+  refresh: '刷新',
+  collapseAll: '全部折叠',
+  clear: '清除',
+  enable: '已启用',
+  recommend: '推荐',
+  disable: '已禁用',
+  expansion: '扩展',
+  sourceControl: '源代码管理: GIT'
+}

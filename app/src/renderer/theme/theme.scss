@@ -1,0 +1,47 @@
+@import "./var";
+
+@mixin getTheme($theme) {
+    @if($theme == 'vs') {
+        background-color: $-vs-background-color !important;
+        color: $-vs-color !important;
+        border-color: $-vs-border-color !important;
+    }@else if ($theme == 'vs-dark') {
+        background-color: $-vs-dark-background-color !important;
+        color: $-vs-dark-color !important;
+        border-color: $-vs-dark-border-color !important;
+    }
+}
+
+
+.vs-theme {
+    @include getTheme("vs");
+    .ivu-split-trigger-vertical,
+    .ivu-split-trigger-horizontal,
+    .tool-bar-title,
+    .code-main-footer-tool,
+    .ivu-tabs-bar,
+    .ivu-collapse,
+    .ivu-collapse-item,
+    .ivu-collapse-header,
+    .ivu-input,
+    .ivu-collapse-content{
+        @include getTheme("vs");
+    }
+  }
+
+  .vs-dark-theme {
+    @include getTheme("vs-dark");
+    .ivu-split-trigger-vertical,
+    .ivu-split-trigger-horizontal,
+    .tool-bar-title,
+    .code-main-footer-tool,
+    .ivu-tabs-bar,
+    .ivu-collapse,
+    .ivu-collapse-item,
+    .ivu-collapse-header,
+    .ivu-input,
+    .ivu-collapse-content{
+        @include getTheme("vs-dark");
+    }
+  }
+
