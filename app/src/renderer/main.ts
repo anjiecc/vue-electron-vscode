@@ -1,8 +1,8 @@
 /*
  * @Author: xa
  * @Date: 2018-08-30 12:10:37
- * @LastEditors: xa
- * @LastEditTime: 2018-08-30 12:10:37
+ * @LastEditors: xiaoai
+ * @LastEditTime: 2018-12-26 20:21:02
  * @Description: Whatever is worth doing is worth doing well(任何值得做的事就值得把它做好)
  */
 import Vue from 'vue'
@@ -46,7 +46,6 @@ import { getCookie } from './util/cookie'
 Vue.use(extend)
 Vue.use(iView)
 Vue.use(VueI18n)
-
 // Vue.use(VCharts)
 
 // Vue.locale = () => {}
@@ -68,7 +67,7 @@ router.beforeEach((to: Route, from: Route, next: Function) => {
   next()
 })
 
-router.afterEach((to: Route, from: Route, next: Function) => {
+router.afterEach((to: Route, from: Route) => {
   iView.LoadingBar.finish()
 })
 
