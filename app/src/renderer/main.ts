@@ -2,7 +2,7 @@
  * @Author: xa
  * @Date: 2018-08-30 12:10:37
  * @LastEditors: xiaoai
- * @LastEditTime: 2018-12-26 20:21:02
+ * @LastEditTime: 2018-12-26 22:21:45
  * @Description: Whatever is worth doing is worth doing well(任何值得做的事就值得把它做好)
  */
 import Vue from 'vue'
